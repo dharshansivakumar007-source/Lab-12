@@ -1,30 +1,110 @@
-# NOVA technology storefront
+# 🚀 NOVA – Technology E-Commerce Website
 
-A responsive, front-end-only technology shopping demo built with HTML, CSS, JavaScript, and an XML product catalogue. The catalogue contains 37 illustrative electronics products across eight categories.
+**Technology. Reimagined.**
 
-## Run locally
+NOVA is a modern technology e-commerce website designed to provide a smooth and attractive online shopping experience. It features a premium design, product catalogue, shopping cart, wishlist, user account pages, and checkout interface.
 
-The browser loads `products.xml` with `fetch`, so open the project through a local web server rather than opening `index.html` directly.
+## 🌟 Features
 
-1. Open this folder in VS Code.
-2. Start the project with the **Live Server** extension (right-click `index.html` and choose **Open with Live Server**) or another local HTTP server.
-3. Browse the local address opened by the server.
+- 🏠 **Home Page** – Modern homepage with featured products.
+- 📱 **Products Page** – Browse technology products.
+- 🔍 **Product Details** – View individual product information.
+- 🛒 **Shopping Cart** – Add, view, and manage cart items.
+- ❤️ **Wishlist** – Save favourite products.
+- 💳 **Checkout** – Complete the checkout process.
+- 👤 **User Account** – Login, registration, and account pages.
+- 📦 **Order Success** – Order confirmation page.
+- 📞 **Contact Page** – Contact information and enquiry interface.
+- 📄 **XML Product Catalogue** – Product data stored in XML.
+- 🎨 **Responsive Design** – Designed for desktop, tablet, and mobile screens.
 
-The XML catalogue is fetched by JavaScript, so `file://` access is not supported.
+## 🛠️ Technologies Used
 
-## Project files
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Website functionality |
+| XML | Product data storage |
+| Git & GitHub | Version control and hosting |
 
-- `index.html` — homepage, category navigation, and featured collections
-- `products.html`, `product.html` — searchable catalogue and product details
-- `cart.html`, `checkout.html`, `order-success.html` — demo shopping flow
-- `login.html`, `register.html`, `account.html`, `wishlist.html` — demo customer pages
-- `contact.html`, `404.html` — support and not-found pages
-- `products.xml` — 37 sample technology products and specifications
-- `app.js` — shared product loading and storefront interactions
-- `styles.css` — shared visual styles and responsive layouts
+## 📂 Project Structure
 
-## Demo-only behavior
+```text
+nova-shopping-website/
+│
+├── 404.html
+├── account.html
+├── app.js
+├── cart.html
+├── checkout.html
+├── contact.html
+├── index.html
+├── login.html
+├── order-success.html
+├── product.html
+├── products.html
+├── products.xml
+├── README.md
+├── register.html
+├── styles.css
+└── wishlist.html
+```
 
-Cart, wishlist, theme, profile, contact messages, and demo orders are saved in this browser's `localStorage`. Demo authentication does not save passwords and is not secure. Checkout does not collect payment details, process payments, or send orders to a server. UPI and cash-on-delivery are interface demonstrations only.
+## 🚀 How to Run the Project
 
-Product names, prices, discounts, ratings, review counts, specifications, availability, and images are sample data and are not verified offers or live inventory. Product photography is loaded from Unsplash; product and brand names may be trademarks of their respective owners.
+1. Download or clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Install the **Live Server** extension if you don't already have it.
+4. Right-click `index.html`.
+5. Select **Open with Live Server**.
+6. The NOVA website will open in your browser.
+
+**Note:** Use a local development server rather than opening the HTML file directly, so JavaScript can load the XML product catalogue correctly.
+
+## 💻 Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/dharshansivakumar007-source/Lab-12.git
+```
+
+Move into the project directory:
+
+```bash
+cd Lab-12
+```
+
+Open the folder in VS Code:
+
+```bash
+code .
+```
+
+## 🌐 GitHub Repository
+
+[View NOVA Shopping Website on GitHub](https://github.com/dharshansivakumar007-source/Lab-12)
+
+## 🔮 Future Improvements
+
+- Online payment gateway integration.
+- Backend and database integration.
+- Secure user authentication.
+- Order tracking system.
+- Admin dashboard.
+- Product reviews and ratings.
+
+## 👨‍💻 Developer
+
+**Project Name:** NOVA – Technology E-Commerce Website
+
+**Category:** Web Development / E-Commerce
+
+**Technologies:** HTML, CSS, JavaScript, XML
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
+
+**NOVA – Technology. Reimagined.**
